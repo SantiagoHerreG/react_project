@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel serve src/index.html --port 3000",
+    "start": "parcel serve src/index.html --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@frontendmasters/pet": "^1.0.3",
+    "@reach/router": "^1.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
